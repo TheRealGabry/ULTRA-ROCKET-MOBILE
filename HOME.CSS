@@ -164,6 +164,19 @@ font-size: 50px;
 
 
 @media (max-width:  500px){
+  .header{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    background-color: black;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+  }
   .titolo-1{
     font: roboto;
     font-size: 0px;
