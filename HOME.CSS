@@ -165,13 +165,13 @@ font-size: 50px;
 
 @media (max-width:  500px){
   .header{
-    width: 100%;
+    width: 400px;
     height: 70px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     position: fixed;
-    background-color: grey;
+    background-color: green;
     top: 0;
     left: 0;
     right: 0;
