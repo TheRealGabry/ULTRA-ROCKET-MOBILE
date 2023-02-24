@@ -1,0 +1,223 @@
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.header{
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  background-color: black;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+
+.titolo-1{
+  font: roboto;
+  font-size: 22px;
+  display: inline-block;
+  padding: 0px;
+  margin: 0px;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.button-1{
+  font-size: 16px;
+  margin: 0px 10px 0px 10px;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 10px;
+  text-align: center;
+  border: 0px solid white;
+  border-radius: 8px;
+  width: 94px;
+  height: 30px;
+  box-sizing: border-box;
+  margin: 0px auto;
+  display: flex;
+  align-items: center;
+  transition: background-color 0.3s,
+  color 0.2s;
+}
+
+.material-icons.md-18 { font-size: 18px; }
+
+.button-1:hover{
+  background-color: white;
+  color: black;
+  transition: background-color 0.3s,
+  color 0.2s;
+}
+
+.button-1:active {
+  background-color: #84d8ff;
+}
+
+.buttons{
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.intro{
+  height: 840px;
+  background-color: #B3B3B;
+  background-image: url(images/RAZZO-NOTTE-2.jpg);
+  background-size: cover;
+  background-blend-mode: multiply;
+}
+
+.foto-1{
+  width: 120px;
+  display: inline-block;
+}
+
+.frase{
+  display: grid;
+  place-items: center;
+  align-content: center;
+}
+
+.titolo-2{
+  margin-top: 200px;
+  margin-bottom: 40px;
+  color: white;
+  font-size: 61px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  -webkit-text-stroke: 2px black;
+}
+
+.sottotitolo{
+  margin-bottom: 70px;
+  color: white;
+  font-size: 61px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  -webkit-text-stroke: 2px black;
+}
+
+.titolo-3{
+  color: #ffdb26;
+font-size: 50px;
+  }
+
+  .titolo-4{
+    color: #ffdb26;
+    font-size: 40px;
+  }
+
+.hidden{
+  opacity: 0;
+  transition: all 1s;
+}
+
+.show{
+  opacity: 1;
+}
+
+.frase:hover .titolo-2{
+
+}
+
+.button-2{
+  height: 74px;
+  font-size: 30px;
+  margin-bottom: 200px;
+  color: #202020;
+  background-color: #E9E9E9;
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  width: 250px;
+  box-sizing: border-box;
+  margin: 50px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.2s,
+  color 0.2s;
+}
+
+.button-2:hover{
+  background-color: #00aeff;
+  color: white;
+  border-color: white;
+}
+
+.button-2:active{
+  background-color: #;
+  color: black;
+}
+
+
+@media (max-width:  500px){
+  .titolo-1{
+    font: roboto;
+    font-size: 0px;
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+  }
+
+  .titolo-2{
+    margin-top: 200px;
+    margin-bottom: 40px;
+    color: white;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    -webkit-text-stroke: 0.5px black;
+  }
+
+  .sottotitolo{
+    margin-bottom: 70px;
+    color: white;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    -webkit-text-stroke: 0.5px black;
+  }
+  .intro{
+      height: 600px;
+    background-image: url(images/RAZZO-NOTTE-2.1.jpg);
+    background-size: 100%;
+  }
+
+  .button-1{
+    font-size: 10px;
+    margin: 0px 10px 0px 10px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    border: 0px solid white;
+    border-radius: 8px;
+    width: 70px;
+    height: 20px;
+    box-sizing: border-box;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s,
+    color 0.2s;
+  }
+}

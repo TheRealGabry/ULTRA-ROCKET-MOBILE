@@ -1,0 +1,6 @@
+.frase-persuasiva{
+  height: 600px;
+  background-image: url(images/CIELO-BELLO.jpg);
+  background-size: cover;
+  background-blend-mode: multiply;
+}

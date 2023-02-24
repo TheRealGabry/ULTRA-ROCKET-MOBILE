@@ -1,0 +1,84 @@
+.chi-sono{
+  height: 680px;
+  background-color: #ececec;
+}
+
+.contenuto-chi-sono{
+  display: flex;
+  justify-content: center;
+}
+
+.quadrato-nero{
+  width: 720px;
+  height: 320px;
+  background-color: black;
+  margin: 40px;
+  padding: 0px;
+  display: inline-block;
+  border-radius: 10px;
+}
+
+.foto-faccia{
+  width: 160px;
+  margin: 0px;
+  padding: 0px;
+  border-radius: 8px;
+  display: inline-block;
+}
+
+.testo-chi-sono{
+  color: white;
+  font-size: 15px;
+  width: 360px;
+  margin-left: 40px;
+  padding: 0px;
+  display: inline-block;
+}
+
+.contenuto-quadrato-nero{
+  margin: 80px 0px 80px 80px;
+}
+
+
+@media (max-width:  500px){
+  .chi-sono{
+    height: 600px;
+    background-color: #ececec;
+  }
+
+  .contenuto-chi-sono{
+    display: flex;
+    justify-content: center;
+  }
+
+  .quadrato-nero{
+    width: 280px;
+    height: 320px;
+    background-color: black;
+    margin: 40px;
+    padding: 0px;
+    display: inline-block;
+    border-radius: 10px;
+  }
+
+  .foto-faccia{
+    width: 0px;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 8px;
+    display: inline-block;
+  }
+
+  .testo-chi-sono{
+    color: white;
+    font-size: 14px;
+    width: 200px;
+    margin-left: 10px;
+    padding: 0px;
+    display: inline-block;
+  }
+
+  .contenuto-quadrato-nero{
+    margin: 20px 0px 20px 20px;
+  }
+}

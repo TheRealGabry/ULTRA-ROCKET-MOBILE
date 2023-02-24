@@ -1,0 +1,75 @@
+.le-mie-competenze{
+  height: 740px;
+  background-color: #ececec;
+}
+
+.content-1{
+  display: flex;
+  justify-content: center;
+}
+
+.content-2{
+  width: 1160px;
+  height: 380px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 30px;
+}
+
+.part-1, .part-2, .part-3 {
+  width: 360px;
+  height: 380px;
+  background-color: black;
+  margin: 0px, 15px;
+}
+
+.list-1{
+  color: white;
+  font-size: 25px;
+  margin: 10px;
+  margin-top: 25px;
+  margin-bottom: 28px;
+}
+
+.foto-1{
+  width: 340px;
+  margin-left: 10px;
+}
+
+
+@media (max-width:  500px){
+  .le-mie-competenze{
+    height: 1400px;
+    background-color: #ececec;
+  }
+  .content-2{
+    width: 360px;
+    height: 1240px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    margin: 0px;
+    padding: 0px;
+  }
+  .list-1{
+    color: white;
+    font-size: 15px;
+    margin: 0px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+  .foto-1{
+    width: 280px;
+    margin: 10px;
+  }
+
+  .part-1, .part-2, .part-3 {
+    width: 300px;
+    height: 296px;
+    background-color: black;
+    margin-top: 0px;
+    margin-bottom: 60px;
+  }
+}

@@ -1,0 +1,74 @@
+.contatti{
+  height: 720px;
+  background-color: #000000;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+}
+
+
+form{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 24rem;
+  gap: 1rem;
+}
+
+input,textarea{
+  padding: 1.4rem;
+  background: white;
+  border: 3px solid orange;
+}
+
+textarea{
+  height: 6rem;
+}
+
+buttonn{
+  width: 8rem;
+  padding: 1.4rem;
+  cursor: pointer;
+  background: grey;
+  color: white;
+}
+
+
+@media (max-width:  500px){
+  .container{
+    margin-top: 40px;
+  }
+
+  .contatti{
+    height: 850px;
+    background-color: #000000;
+  }
+
+  form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 280px;
+    gap: 1rem;
+  }
+
+  input,textarea{
+    padding: 1.4rem;
+    background: white;
+    border: 3px solid orange;
+  }
+
+  textarea{
+    height: 6rem;
+  }
+
+  buttonn{
+    width: 50px;
+    padding: 1.4rem;
+    cursor: pointer;
+    background: grey;
+    color: white;
+  }
+}

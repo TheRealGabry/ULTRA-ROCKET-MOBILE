@@ -1,0 +1,47 @@
+body{
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  background-color: grey;
+  padding: 0px;
+  margin: 0px;
+}
+
+
+.titolo-A{
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  padding-top: 80px;
+  padding-bottom: 40px;
+  color: black;
+}
+
+.titolo-B{
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  padding-top: 80px;
+  padding-bottom: 40px;
+  color: white;
+}
+
+@media (max-width:  500px){
+  .titolo-A{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    color: black;
+  }
+
+  .titolo-B{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    color: white;
+  }
+
+}
